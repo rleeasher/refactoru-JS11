@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>JS11</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css"> 
+
+
+  </head>
+
+  <body>
+
+  <div class="container">
+
+      <div class="main-header">
+        <h1>Your Face Book</h1>
+        <p class="lead">Your best info about stuff!</p>
+      </div>
+
+  <div class="content-container">
+    <div id = "change-form" class="col-left">
+      <form id="input-form">
+        <div class="form-group">
+          <label for="personName">Name:</label>
+          <input type="text" class="form-control" id="formName">
+        </div>
+        <div class="form-group">
+          <label for="personBio">Biography:</label>
+          <input type="text" class="form-control" id="formBio">
+        </div>
+        <div class="form-group">
+          <label for="personBook">Favorite Books:</label>
+          <input type="text" class="form-control" id="formBook">
+        </div>
+        <div class="form-group">
+          <label for="personLibraries">Favorite JS Libraries:</label>
+          <input type="text" class="form-control" id="formLibraries">
+        </div>
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+    </div>
+
+    <div class="col-right">
+      <div class="row">
+        <div class="col-left2">
+          <img src="profile_pic.jpg" class="img-thumbnail img-responsive">
+          <h3 id="fname" class="fullname">Lee Asher</h3>
+          <h4 class="unimportant">April 8th, 1984</h4>
+          <button id="edit-button">Edit Profile</button>
+        </div>
+        <div class="col-right2">
+          <div class = "row">
+            <h4 class="biography-title main-title">Biography</h4>
+            <p id="biography" class="main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <hr>
+
+          <div class="row">
+            <h4 class = "book-title main-title">Favorite Books</h4>
+              <p id = "books" class = "main-content">Ender's Game, American Gods, Redwall Series</p>
+          </div>
+
+          <hr> 
+
+          <div class="row">
+            <h4 class="js-title main-title">Favorite JS Libraries</h4>
+              <p id = "js-libraries" class="main-content">JQuery, D3, Angular</p>         
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /.container -->
+
+
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>  
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
